@@ -16,6 +16,18 @@ ESP32を使った、Webブラウザから音楽を制御できるシンプルな
 - スピーカー
 - DFPlayer mini
   
+  ## 配線図
+
+| DFPlayer Mini | ESP32 GPIO | 備考           |
+|:-------------:|:----------:|:---------------|
+| VCC           | 5V         | 電源           |
+| GND           | GND        | グラウンド     |
+| TX            | GPIO0      | ESP32 RX (Serial1) |
+| RX            | GPIO4      | ESP32 TX (Serial1) |
+| SPK_1         | スピーカー | 　　　　　　　　　|
+| SPK_2         | スピーカー |                |
+
+
 ## 👨‍💻 作者
 - [TatsuyaM2667](https://github.com/TatsuyaM2667)
 
